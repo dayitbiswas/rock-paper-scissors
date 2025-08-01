@@ -34,7 +34,7 @@ function playGame() {
       console.log("You win! Rock beat Scissors");
       humanScore++;
     } else {
-      console.log("It's a draw!");
+      console.log("It's a tie!");
     }
   }
 
