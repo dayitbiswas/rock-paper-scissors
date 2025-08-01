@@ -4,3 +4,11 @@ function getComputerChoice() {
   else if (choice === 1) return "paper";
   else return "scissors";
 }
+
+function getHumanChoice() {
+  const choice = +prompt("What is your move?")
+  if (choice === 0) return "rock";
+  else if (choice === 1) return "paper";
+  else return "scissors";
+}
+
